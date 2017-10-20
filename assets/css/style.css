@@ -1,0 +1,474 @@
+* {
+    outline: none;
+}
+a {
+    text-decoration: none!important;
+    cursor: pointer!important;
+}
+p {
+    line-height: 1.5;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.container {
+    max-width: 1200px!important;
+    width: 100%;
+}
+.titulo-geral {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c437d;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.p-geral {
+    font-size: 14px;
+    color: #565657;
+    margin-bottom: 20px;
+}
+.botao {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: #b7393c;
+    border: 1px solid #b7393c;
+    padding: 5px 40px;
+    border-radius: 50px;
+}
+.botao:hover {
+    color: #b7393c;
+    background: #fff;
+    border: 1px solid #b7393c;
+}
+.borda {
+    border-bottom: 1px solid #e5e7e8;
+    padding-top: 70px;
+}
+
+
+.navbar-default {
+    background-color: #182d4d;
+    border-color: transparent;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+a.navbar-brand {
+    margin-top: -10px;
+    padding: 0;
+}
+.navbar-nav {
+    float: right;
+    margin-right: -15px;
+}
+.navbar-nav>li>a {
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #fff!important;
+}
+header .hvr-underline-from-center:before {
+    bottom: 10px;
+    background: #fff;
+    height: 2px;
+}
+.associe {
+    background: #b7393c;
+    border-radius: 50px;
+    padding: 0px 10px;
+    margin-top: 5px;
+}
+.associe a {
+    padding: 5px 10px!important;
+}
+.associe:hover {
+    background: #fff;
+}
+.associe:hover a {
+    color: #b7393c!important;
+}
+
+
+.anatra {
+    padding-top: 70px;
+}
+.anatra img {
+    width: 100%;
+}
+.anatra h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1c437d;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.anatra p {
+    margin-bottom: 20px;
+}
+.anatra .botao {
+    margin-top: 10px;
+    display: -webkit-inline-box;
+}
+
+
+.noticias {
+    padding-top: 70px;
+}
+.noticias .item {
+    border: 1px solid #d9d9d9;
+    min-height: 450px;
+}
+.noticias h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c527e;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+.noticias p {
+    padding: 0 20px;
+}
+.owl-prev {
+width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 45%;
+    margin-left: -35px;
+    display: block!important;
+    border: 0px solid black;
+}
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 45%;
+    right: -40px;
+    display: block!important;
+    border: 0px solid black;
+}
+.owl-prev i,
+.owl-next i {
+    transform: scale(5,5);
+    color: #b7393c;
+}
+.owl-prev i:hover,
+.owl-next i:hover {
+    color: #1c527e;
+}
+.noticias .botao {
+    display: table;
+    margin: 40px auto 0;
+}
+
+
+.eventos {
+    padding: 70px 0;
+}
+.eventos .item {
+    float: left;
+    height: 175px;
+    padding: 10px 10px 0 50px;
+}
+.eventos .item1 {
+    width: 30%;
+    background: #1c437d;
+}
+.eventos .item2 {
+    width: 23.33%;
+    background: #13305a;
+    border-left: 1px solid #1c437d;
+}
+.eventos .item h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.eventos .item h2 span {
+    font-weight: 400;
+}
+.eventos .botao {
+    padding: 10px 60px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+    bottom: -9px;
+    margin: 0 auto;
+    display: table;
+}
+.eventos p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: -5px;
+}
+.eventos .item2 a {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #b7393c;
+}
+.eventos .hvr-underline-from-center:before {
+    bottom: 0px;
+    background: #b7393c;
+    height: 1px;
+}
+
+
+.associados {
+    background: url(../images/associados.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 340px;
+    text-align: center;
+    padding: 50px 0;
+}
+.associados h2 {
+    font-size: 24px;
+    color: #fff;
+}
+.associados h2 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.associados p {
+    font-size: 14px;
+    color: #fff;
+    margin: 40px 0 60px;
+}
+.associados a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 10px 60px;
+}
+.associados a:hover {
+    background: #fff;
+    color: #13305a;
+    border: 1px solid #fff;
+}
+
+
+.convenios {
+    text-align: center;
+    padding: 70px 0;
+}
+.convenios .owl-dots {
+    display: -webkit-inline-box
+}
+.convenios .owl-dots .active span {
+    background: none repeat scroll 0 0 #b7393c;
+}
+.convenios .owl-dots span {
+    background: none repeat scroll 0 0 #13305a;
+    border-radius: 20px;
+    display: block;
+    height: 10px;
+    margin: 20px 7px 0 7px;
+    width: 10px;
+}
+
+
+footer {
+    width: 100%;
+    min-height: 110px;
+    background: #1a1a1a;
+}
+footer address {
+    margin-bottom: 0;
+}
+footer address span {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 20px;
+    display: inline-flex;
+    height: 110px;
+    align-items: center;
+}
+footer address span i {
+    color: #b7393c;
+    margin-right: 8px;
+    font-size: 20px!important;
+}
+footer .redes-sociais {
+    display: inline-flex;
+    height: 110px;
+    align-items: center;
+}
+footer .redes-sociais a {
+    width: 27px;
+    height: 27px;
+    background: #b7393c;
+    border-radius: 50px;
+    padding: 4px 7px;
+    margin: 0 5px;
+}
+footer .redes-sociais .fa-facebook {
+    padding-left: 2px;
+}
+footer .redes-sociais a:hover {
+    background: #fff;
+}
+footer .redes-sociais i {
+    font-size: 14px;
+    color: #1a1a1a;
+}
+footer .redes-sociais a:hover i {
+    color: #1a1a1a;
+}
+.marca {
+    float: right;
+    height: 110px;
+    align-items: center;
+    display: flex;
+}
+
+
+.interno {
+    margin: 80px 0;
+}
+.interno .titulo-geral {
+    text-align: left;
+}
+.sobre img,
+.interna-blog img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.fale-conosco label {
+    font-size: 14px;
+    color: #13305a;
+    text-transform: uppercase;
+}
+.fale-conosco input {
+    height: 45px!important;
+    border: 1px solid #ccc!important;
+    border-radius: 0!important;
+}
+.fale-conosco textarea {
+    height: 230px;
+}
+
+
+.noticias.interno {
+    padding: 0;
+}
+.noticias.interno .item {
+    margin-bottom: 30px;
+}
+.noticias.interno .item img {
+    width: 100%;
+}
+
+
+/* --- MOBILE --- */
+@media (max-width: 767px) {
+    img.logo {
+        width: 180px;
+        margin-top: 25px;
+    }
+    .navbar-toggle {
+        padding: 15px 15px;
+        margin-top: 20px;
+    }
+
+
+
+
+    .navbar-default {
+        display: block;
+        height: 90px;
+    }
+    .navbar-toggle {
+        margin-top: 20px;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        background: #182d4d;
+        z-index: 100;
+        position: relative;
+        min-height: 350px;
+        padding: 10px 30px 30px;
+    }
+    #menu ul.nav.navbar-nav {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    #menu ul.nav.navbar-nav>li {
+        margin-bottom: 20px;
+    }
+    .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-nav>li>a {
+        padding: 15px 10px;
+    }
+    .owl-nav {
+        display: none;
+    }
+    .anatra img {
+        margin-bottom: 20px;
+    }
+    .anatra h2 {
+        margin-bottom: 10px;
+    }
+    .eventos .item1,
+    .eventos .item2 {
+        width: 100%;
+        border-top: 1px solid #1c437d;
+    }
+    .eventos .item {
+        padding: 10px 10px 0 20px;
+    }
+    .associados {
+        padding: 50px 10px;
+    }
+    footer {
+        padding-top: 20px;
+    }
+    footer address span {
+        height: 50px;
+    }
+    footer .redes-sociais {
+        height: 50px;
+    }
+    .marca {
+        float: none;
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 945px) {
+    img.logo {
+        width: 160px;
+    }
+    .navbar-nav>li>a {
+        font-size: 12px;
+    }
+    .owl-nav {
+        display: none;
+    }
+    .eventos .item {
+        padding: 10px 10px 0 10px;
+    }
+}
